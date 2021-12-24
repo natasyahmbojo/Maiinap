@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hutan2"
+    tools:context=".MainActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/bgcontent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t_konfirm"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:fontFamily="@font/pregular"
+                android:gravity="center"
+                android:text="Data KangInep"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Email :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_EMAIL"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Username :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_USERNAME"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Jenis Kelamin :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_jk"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Sewa :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_SEWA"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Password :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_PASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Tingkatan Kenyamanan :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/t_presentase"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:fontFamily="@font/pregular"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/contactbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List"
+                android:background="#2980b9">
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
